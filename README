@@ -1,0 +1,2 @@
+This is some code I quickly hacked together as an example of possible ways to implement two interesting table gestures: pinch-apart-to-add, and long-press-to-reorder. There are other ways to implement these, and I'm definitely not convinced that this is the best way, but it was an interesting coding exercise. Any enhancements or suggestions are very welcome!
+

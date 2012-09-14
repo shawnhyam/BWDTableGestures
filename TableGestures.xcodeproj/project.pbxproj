@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291EB04E16036F0200EAEBCC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 291EB04D16036F0200EAEBCC /* README */; };
 		29DF32CD16028F8100E28B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DF32CC16028F8100E28B1B /* UIKit.framework */; };
 		29DF32CF16028F8100E28B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DF32CE16028F8100E28B1B /* Foundation.framework */; };
 		29DF32D116028F8100E28B1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DF32D016028F8100E28B1B /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291EB04D16036F0200EAEBCC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		29DF32C816028F8100E28B1B /* TableGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DF32CC16028F8100E28B1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29DF32CE16028F8100E28B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,7 @@
 		29DF32BD16028F8100E28B1B = {
 			isa = PBXGroup;
 			children = (
+				291EB04D16036F0200EAEBCC /* README */,
 				29DF32EF1602901700E28B1B /* QuartzCore.framework */,
 				29DF32D216028F8100E28B1B /* TableGestures */,
 				29DF32CB16028F8100E28B1B /* Frameworks */,
@@ -180,6 +183,7 @@
 				29DF32D716028F8100E28B1B /* InfoPlist.strings in Resources */,
 				29DF32E016028F8100E28B1B /* MainStoryboard_iPhone.storyboard in Resources */,
 				29DF32E316028F8100E28B1B /* MainStoryboard_iPad.storyboard in Resources */,
+				291EB04E16036F0200EAEBCC /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +324,7 @@
 				29DF32EB16028F8100E28B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

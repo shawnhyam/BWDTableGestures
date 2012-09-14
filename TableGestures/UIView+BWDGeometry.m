@@ -21,6 +21,7 @@
     transform = CATransform3DTranslate(transform, 0, rotateDown ? -targetHeight : targetHeight, 0);
     transform = CATransform3DRotate(transform, rotation, rotateDown ? -1 : 1, 0, 0);
     self.layer.anchorPoint = CGPointMake(0.5, rotateDown ? 0 : 1);
+    
     // set the final position; if you want to anchor it differently, change this
     self.layer.position = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMaxY(self.bounds));
     self.layer.transform = transform;
